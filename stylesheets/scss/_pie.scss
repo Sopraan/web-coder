@@ -1,0 +1,65 @@
+footer {
+    background-color: aliceblue;
+    padding: 1rem;
+
+    .contact {
+        &__form {
+            button {
+                padding: 5px 10px 5px 10px;
+                border: 0px;
+                border-radius: 5px;
+                color: white;
+            }
+
+            &__title {
+                border-bottom: 1px solid;
+            }
+
+            &__submit {
+                background-color: lightgreen;
+
+                &:hover {
+                    background-color: green;
+                    transition: background-color .5s;
+                }
+            }
+
+            &__delete {
+                background-color: lightcoral;
+
+                &:hover {
+                    background-color: coral;
+                    transition: background-color .5s;
+                }
+            }
+        }
+    }
+
+    .fieldset {
+        border: none;
+        
+        &__info {
+            &__title {
+                font-weight: 600;
+            }
+
+            &__campo {
+                margin: 0.5rem;
+                border: 0px;
+                background-color: white;
+                padding: 0.2rem;
+            }
+        }
+    
+
+        &__ayuda {
+            &__campo {
+                padding: 2px;
+            }
+
+            &__title {
+                font-weight: 600;
+            }
+        }
+    }
+}

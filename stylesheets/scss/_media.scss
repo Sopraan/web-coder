@@ -1,0 +1,23 @@
+@media (min-width: 1366px) {
+	body {
+		grid: 10% 90%;
+		grid-template-areas: "nav header" "nav main" "nav footer";
+		width: auto;
+	}
+	nav {
+		ul {
+			li {
+				display: block;
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.listas {
+		display: none;
+	}
+	.dropdown {
+		display: inline;
+	}
+}
